@@ -4,8 +4,13 @@ const Login = (props: any) => {
   return (
 
     <S.Container>
-      <S.Content>Content</S.Content>
-    </S.Container>
+      <S.Content>
+        <S.CTA>
+          <S.CTALogoOne src="../../assets/images/cta-logo-one.svg" alt="" />
+        </S.CTA>
+        <S.BgImage />
+      </S.Content>
+    </S.Container >
 
   );
 };
